@@ -1,0 +1,15 @@
+Modelo básico de datos:
+
+Entidad: Causa
+- id: identificador único de la causa.
+- titulo: nombre de la petición o reclamo.
+- descripcion: detalle de la situación que se quiere resolver.
+- fecha: fecha en que se registró la causa.
+
+Entidad: Apoyo
+- id: identificador único del apoyo.
+- causa_id: referencia a la causa relacionada.
+- nombre: nombre de la persona que apoya.
+- fecha: fecha en que se registró el apoyo.
+
+Estas entidades sirven para registrar las causas y llevar el control de los apoyos que recibe cada una.
